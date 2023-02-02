@@ -1,3 +1,9 @@
+*{
+    margin: 0%;
+}
+
+
+
 .copyright {
     padding: 100;
     background-color: #f1f1f1f1;
@@ -171,12 +177,12 @@ header h1 {
     display: grid;
     place-items: center;
     text-decoration: none;
-    color: #fff;
+    color: rgb(7, 7, 7);
     background-image: linear-gradient(to right,
-            #4162cf 0%,
-            #0072ff 51%,
-            #4162cf 100%);
-    border-radius: 10px;
+            #abb1b8 0%,
+            #abb1b8 51%,
+            #abb1b8 100%);
+    border-radius: 50px;
     background-size: 200% auto;
     transition: 0.3s ease-in-out;
 }

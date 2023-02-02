@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+}
+
+
 .copyright {
     padding: 100;
     background-color: #f1f1f1f1;
@@ -384,6 +389,7 @@ u {
 
 .talk h1 {
     font-size: 2.5rem;
+    
 }
 
 .talk table tr th img {
@@ -398,10 +404,41 @@ u {
     font-size: 1.3rem;
     padding-left: 80px;
     padding-right: 60px;
-
 }
 
-.talk table {
-    padding-left: 40px;
-    padding-right: 40px;
+.talk table th{
+    padding: 50px;
+}
+
+.talk table{
+    padding-left: 150px;
+}
+
+
+
+
+.pythonbutton {
+
+    width: 180px;
+    height: 48px;
+    font-size: 1.2rem;
+
+    text-align: center;
+
+
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right,
+            black,
+            black 61%,
+            #abb1b8 100%);
+    border-radius: 25px;
+    background-size: 200% auto;
+    transition: 0.3s ease-in-out;
+}
+
+.pythonbutton:hover {
+    background-position: right center;
 }
